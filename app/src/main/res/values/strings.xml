@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Employee Data</string>
+    <string name="emp_list">Employee List</string>
+    <string name="emp_details">Employee Details</string>
+
+
+
+    <!--network errors-->
+    <string name="network_connection_error">Internet connection lost, please retry again</string>
+    <string name="network_default_error">Something wrong happened, please retry again</string>
+    <string name="network_internal_error">Our systems got an error, please retry again</string>
+    <string name="network_server_not_available">Our services are under maintenance, please retry after some time
+    </string>
+    <string name="network_invalidation_error">Username or password is incorrect,Please retry again</string>
+    <string name="server_connection_error">Not able to connect, please retry again</string>
+    <string name="network_login_again">Please log in again</string>
+</resources>
