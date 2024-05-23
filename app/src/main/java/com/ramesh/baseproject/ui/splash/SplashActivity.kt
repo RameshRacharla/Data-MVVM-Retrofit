@@ -25,8 +25,8 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySplashBinding.inflate(layoutInflater);
-        setContentView(binding.root);
+        binding = ActivitySplashBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         Handler(mainLooper).postDelayed(Runnable { /* Create an Intent that will start the Next - Activity. */
             val mainIntent = Intent(this, MainActivity::class.java)

@@ -36,7 +36,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityEmployeedetailsBinding.inflate(layoutInflater)
-        setContentView(binding.root);
+        setContentView(binding.root)
 
         val id = intent.getStringExtra(Constants.id)
         viewModel.getEmployeeDetails(id!!)
